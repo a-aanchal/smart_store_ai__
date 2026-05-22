@@ -8,7 +8,7 @@ This document describes the high-level architecture of SmartStoreAi.
 flowchart LR
   Browser[Client (React)] -->|API calls| FrontendServer[Frontend Dev Server]
   FrontendServer -->|HTTP| Backend[Node.js / Express]
-  Backend --> Auth[(Auth Service / JWT)]
+  Backend --> Auth[(Auth Service /JWT)]
   Backend --> DB[(MongoDB)]
   Backend --> GeminiService[Gemini / AI Service]
   Backend --> Analytics[Analytics Service]
