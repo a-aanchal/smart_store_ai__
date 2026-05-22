@@ -3,8 +3,7 @@
 This document describes the high-level architecture of SmartStoreAi.
 
 ## Mermaid Diagram
-
-```mermaid
+<img width="887" height="772" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/eb617260-15d1-4696-ac26-2dc0a6a4fa16" />
 flowchart LR
   Browser[Client (React)] -->|API calls| FrontendServer[Frontend Dev Server]
   FrontendServer -->|HTTP| Backend[Node.js / Express]
@@ -17,15 +16,14 @@ flowchart LR
   Backend -->|Events| InventoryAlert[Inventory Alert Service]
 
   style DB fill:#f9f,stroke:#333,stroke-width:1px
-```
 
 ## Components
 
-- Frontend: Vite + React, components in `frontend/src/components`.
-- Backend: Node.js + Express, routes in `backend/routes` and controllers in `backend/controllers`.
-- Database: MongoDB (see `docs/db_schema.sql` for schema reference).
-- AI Service: `backend/services/geminiService.js` integrates with Gemini.
-- Analytics: `backend/services/analyticsService.js` collects metrics.
+- Frontend: Vite + React, components in frontend/src/components.
+- Backend: Node.js + Express, routes in backend/routes and controllers in backend/controllers.
+- Database: MongoDB (see docs/db_schema.sql for schema reference).
+- AI Service: backend/services/geminiService.js integrates with Gemini.
+- Analytics: backend/services/analyticsService.js collects metrics.
 
 ## Data flow
 
