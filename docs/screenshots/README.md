@@ -16,5 +16,5 @@ Recommended filenames:
 
 When adding images, reference them in the root README.md under the Screenshots section. Example markdown:
 
-![Dashboard](docs/screenshots/dashboard.png)
+
 
