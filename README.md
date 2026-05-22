@@ -1,72 +1,20 @@
-# SmartStoreAi
+#SmartStore AI
+AI-Powered E-Commerce Admin Assistant
 
-SmartStoreAi is an e-commerce demo application that integrates AI-powered features for product descriptions, analytics, and inventory alerts.
+SmartStore AI is a modern AI-powered e-commerce admin dashboard that helps store owners manage products, monitor analytics, and generate intelligent sales insights using artificial intelligence.
 
-## Demo Video
+The platform simplifies store management by providing:
 
-Click the thumbnail to view the demo (replace with your uploaded video):
+Product management
+Sales analytics
+Inventory monitoring
+AI-powered business suggestions
+Revenue tracking
 
-[![Demo Video](https://img.youtube.com/vi/REPLACE_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=REPLACE_VIDEO_ID)
+📸 Project Preview
 
-## Screenshots
+Dashboard Overview - <img width="1916" height="988" alt="Screenshot 2026-05-22 172513" src="https://github.com/user-attachments/assets/0a2e4fed-97a1-44d2-856d-bf559f1e950a" />
+Product Management -  <img width="1919" height="991" alt="Screenshot 2026-05-22 172426" src="https://github.com/user-attachments/assets/257989de-8038-4ca0-97de-54d42862ec2b" />
+Analytics Dashboard - <img width="1912" height="990" alt="Screenshot 2026-05-22 172453" src="https://github.com/user-attachments/assets/3d29576d-baf8-4a6c-a632-681769e2f143" />
 
-![Dashboard](docs/screenshots/dashboard.png)
-![Products](docs/screenshots/products.png)
-
-## Architecture
-
-See the architecture overview in `docs/architecture.md`.
-
-```mermaid
-flowchart LR
-	Client --> Frontend
-	Frontend --> Backend
-	Backend --> DB
-	Backend --> GeminiService
-```
-
-## Database
-
-See `docs/db_schema.sql` for the documented schema.
-
-## Setup (Backend)
-
-1. cd backend
-2. npm install
-3. Create a `.env` with your MongoDB connection and API keys
-4. npm start
-
-## Setup (Frontend)
-
-1. cd frontend
-2. npm install
-3. npm run dev
-
-## API Endpoints
-
-- `POST /api/auth/login` — login
-- `POST /api/auth/signup` — signup
-- `GET /api/products` — list products
-- `POST /api/ai/generate` — AI-generated content
-
-## Contributing
-
-1. Fork the repo
-2. Create a feature branch
-3. Make changes and open a PR
-
-## Files of Interest
-
-- Backend controllers: `backend/controllers`
-- Frontend components: `frontend/src/components`
-- AI service: `backend/services/geminiService.js`
-
----
-
-Replace the placeholder images and video links in the `docs/` folder with your actual assets.
-
-## Contributors
-
-- Project owner: Your Name
-- Maintainers: Add your team members here
 
