@@ -2,17 +2,10 @@
 
 Below is a Mermaid-based system diagram you can copy into GitHub README or render locally.
 
-```mermaid
-graph TD
-  A[Frontend (React)] --> B[Backend (Express)]
-  B --> C[(MongoDB)]
-  B --> D[Gemini AI Service]
-  B --> E[Analytics Service]
-  B --> F[Inventory Alert]
+<img width="887" height="772" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/c7cc3be5-fec6-4cb4-85bb-e14c1af673bc" />
 
-  subgraph Frontend
-    A
-  end
 
-```
+
+
+
 
