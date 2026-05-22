@@ -64,3 +64,9 @@ See `docs/db_schema.sql` for the documented schema.
 ---
 
 Replace the placeholder images and video links in the `docs/` folder with your actual assets.
+
+## Contributors
+
+- Project owner: Your Name
+- Maintainers: Add your team members here
+
