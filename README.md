@@ -147,15 +147,6 @@ AI APIs
 POST /api/ai/suggestions
 POST /api/ai/recommendations
 
-⚙️ Environment Variables
-
-Create a .env file inside the backend folder.
-
-PORT=5000
-MONGO_URI=mongodb://anchalkumari7000_db_user:HGHxCnZmRIgzIdvu@ac-qk62zcb-shard-00-00.wxamyx9.mongodb.net:27017,ac-qk62zcb-shard-00-01.wxamyx9.mongodb.net:27017,ac-qk62zcb-shard-00-02.wxamyx9.mongodb.net:27017/?ssl=true&replicaSet=atlas-4i1hoo-shard-0&authSource=admin&appName=Cluster0
-JWT_SECRET=smartstore_secret_key_123
-GEMINI_API_KEY=AIzaSyAeDr2nJitsdMSpSDEd1UHSV9B4Su6evOk
-
 
 🚀 Installation Guide
 
@@ -256,25 +247,7 @@ Commit changes
 Push changes
 Create Pull Request
 
-⭐ GitHub Commit Suggestions
 
-git commit -m "Initialize React and Node.js setup"
-
-git commit -m "Implement JWT authentication"
-
-git commit -m "Add product management APIs"
-
-git commit -m "Design dashboard UI"
-
-git commit -m "Integrate analytics charts"
-
-git commit -m "Implement AI sales suggestions"
-
-git commit -m "Update README documentation"
-
-📄 License
-
-This project is licensed under the MIT License.
 
 
 
